@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T12:43:40.724Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="t-Ipu029_R7rBSQ4BSb3" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T12:45:25.089Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gMWtBGlKw_fMOth-jdUn" version="21.2.9" type="github">
   <diagram name="Page-1" id="pJeY36WOzXSqh8ztg11B">
     <mxGraphModel dx="1362" dy="1975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,8 +163,8 @@
         <mxCell id="6b8CFakU41x3YS9mEf5F-57" value="172.16.140.33&lt;br&gt;&lt;br&gt;ssh,http&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2305 tcp &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;mt-scaleserver&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2800 tcp&amp;nbsp; &amp;nbsp; &amp;nbsp;acc-raid&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2828&amp;nbsp;itcp&amp;nbsp; &amp;nbsp; &amp;nbsp;tm-lm&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2000/udp&amp;nbsp; &amp;nbsp; cisco-sccp&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2011/udp&amp;nbsp; &amp;nbsp; servserv&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2200/udp&amp;nbsp; &amp;nbsp; ici&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2250/udp&amp;nbsp; &amp;nbsp; remote-collab&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2999/udp&amp;nbsp; &amp;nbsp; remoteware-un&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2850" y="-730" width="211" height="211" as="geometry" />
         </mxCell>
-        <mxCell id="6b8CFakU41x3YS9mEf5F-59" value="172.16.140.35&lt;br&gt;red-int-dmz2-host-2-student-4&lt;br&gt;ssh" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="3088" y="-430" width="142" height="142" as="geometry" />
+        <mxCell id="6b8CFakU41x3YS9mEf5F-59" value="172.16.140.35&lt;br&gt;red-int-dmz2-host-2-student-4&lt;br&gt;ssh&lt;br&gt;student : password" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="3085" y="-450" width="162" height="162" as="geometry" />
         </mxCell>
         <mxCell id="6b8CFakU41x3YS9mEf5F-62" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -253,6 +253,12 @@
         </mxCell>
         <mxCell id="DPlo7bij1fOSaC7o-ZJD-8" value="RED-POP2&lt;br&gt;172.16.140.5&lt;br&gt;ssh" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2340" y="-310" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="DPlo7bij1fOSaC7o-ZJD-9" value="eth0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DPlo7bij1fOSaC7o-ZJD-10" value=".40" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="308" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
