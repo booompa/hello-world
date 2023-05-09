@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T20:24:17.893Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KXsy0kZuhqrY0NLFtleF" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-09T20:29:45.411Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="--emK_HLWF-tFJNn7kLg" version="21.2.9" type="github" pages="3">
   <diagram name="Page-1" id="pJeY36WOzXSqh8ztg11B">
     <mxGraphModel dx="2049" dy="2346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -529,7 +529,7 @@
         <mxCell id="QlT6ibcw3h1sXno8cF2M-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QlT6ibcw3h1sXno8cF2M-2" target="QlT6ibcw3h1sXno8cF2M-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QlT6ibcw3h1sXno8cF2M-2" value="internet host&lt;br&gt;IP:float 10.50.x.x&lt;br&gt;IP:eth0 10.10.0.40&lt;br&gt;30401 &amp;gt; ns1&lt;br&gt;30402 &amp;gt; ns1(80)&lt;br&gt;30403 &amp;gt; hs2&lt;br&gt;30405 -&amp;gt; n06(telnet)&lt;br&gt;30407 -&amp;gt; n06" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="QlT6ibcw3h1sXno8cF2M-2" value="internet host&lt;br&gt;IP:float 10.50.x.x&lt;br&gt;IP:eth0 10.10.0.40&lt;br&gt;30401 &amp;gt; ns1&lt;br&gt;30402 &amp;gt; ns1(80)&lt;br&gt;30403 &amp;gt; hs2&lt;br&gt;30405 -&amp;gt; n06(telnet)&lt;br&gt;30407 -&amp;gt; n06&lt;br&gt;30408 -&amp;gt; n09" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-30" y="210" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QlT6ibcw3h1sXno8cF2M-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -663,6 +663,12 @@
         </mxCell>
         <mxCell id="N6W4qC_WEj0YgbgUT4F3-27" value="net-ssh-09&lt;br&gt;.90&lt;br&gt;ftp&lt;br&gt;2222/tcp open&amp;nbsp; EtherNetIP-1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1555" y="970" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6W4qC_WEj0YgbgUT4F3-32" target="N6W4qC_WEj0YgbgUT4F3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-32" value="net-ssh-10&lt;br&gt;.100" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1220" width="190" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
