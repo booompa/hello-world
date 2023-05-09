@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T20:19:52.680Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_RQJNhDGJzI9TFl1S8ak" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-09T20:24:17.893Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KXsy0kZuhqrY0NLFtleF" version="21.2.9" type="github" pages="3">
   <diagram name="Page-1" id="pJeY36WOzXSqh8ztg11B">
     <mxGraphModel dx="2049" dy="2346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -575,6 +575,9 @@
             <mxPoint x="1180" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6W4qC_WEj0YgbgUT4F3-3" target="N6W4qC_WEj0YgbgUT4F3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N6W4qC_WEj0YgbgUT4F3-3" value="net-ssh-02&lt;br&gt;.20&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;21/tcp&amp;nbsp; &amp;nbsp;open&amp;nbsp; ftp&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;80/tcp&amp;nbsp; &amp;nbsp;open&amp;nbsp; http&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1111/tcp open&amp;nbsp; lmsocialserver&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2222/tcp open&amp;nbsp; EtherNetIP-1&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3333/tcp open&amp;nbsp; dec-notes&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="520" width="130" height="130" as="geometry" />
         </mxCell>
@@ -637,13 +640,28 @@
         <mxCell id="N6W4qC_WEj0YgbgUT4F3-18" value="net-ssh-06&lt;br&gt;.60&lt;br&gt;ftp,ssh,http" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="970" y="970" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="N6W4qC_WEj0YgbgUT4F3-25" value="&lt;br&gt;.70&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6W4qC_WEj0YgbgUT4F3-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1229.5" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-25" value="net-ssh-07&lt;br&gt;.70&lt;br&gt;1337" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1160" y="970" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="N6W4qC_WEj0YgbgUT4F3-26" value="&lt;br&gt;.80&lt;br&gt;http&lt;br&gt;3389/tcp open&amp;nbsp; ms-wbt-server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6W4qC_WEj0YgbgUT4F3-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-26" value="net-ssh-08&lt;br&gt;.80&lt;br&gt;http&lt;br&gt;3389/tcp open&amp;nbsp; ms-wbt-server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1355" y="970" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="N6W4qC_WEj0YgbgUT4F3-27" value="&lt;br&gt;.90&lt;br&gt;ftp&lt;br&gt;2222/tcp open&amp;nbsp; EtherNetIP-1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6W4qC_WEj0YgbgUT4F3-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N6W4qC_WEj0YgbgUT4F3-27" value="net-ssh-09&lt;br&gt;.90&lt;br&gt;ftp&lt;br&gt;2222/tcp open&amp;nbsp; EtherNetIP-1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1555" y="970" width="140" height="140" as="geometry" />
         </mxCell>
       </root>
